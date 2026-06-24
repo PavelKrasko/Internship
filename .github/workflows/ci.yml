@@ -26,4 +26,4 @@ jobs:
       - name: Run tests
         run: |
           cd TASK-7-ci-cd
-          pytest tests/ -v
+          python -m pytest tests/ -v
